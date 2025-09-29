@@ -16,8 +16,7 @@ body{
     justify-content: space-around;
     border-radius: 1%;
     width: 40rem;
-    height: 40rem;
-    /*border: solid red 0.4rem;*/
+    height: 50rem;
 }
 
 /*Estiliza Links*/
@@ -29,12 +28,12 @@ body{
     color: black;
 }
 
+/*Feedback Link */
 .link:hover{
-    /*color: #fff;
-    background-color: rgb(34, 33, 33);*/
     text-decoration: underline;
 }
 
+/*Centraliza e espaça links*/
 .nav_links{
     display: flex;
     flex-direction: row;
@@ -43,7 +42,7 @@ body{
     align-items: center ;
 }
 
-/*Estiliza Links*/
+/*Estiliza foto da bandeira*/
 #bandeira{
     width: 25rem;
     display: flex;

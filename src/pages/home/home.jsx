@@ -10,7 +10,9 @@ function Home() {
   return (
     <>
         <div className='main'>
+            
             <h1>Seja Bem Vindo a João Pessoa!</h1>
+
             <div id="img_container">
                 <img src={bandeira} alt="Bandeira de João Pessoa" id="bandeira"/>
             </div>
@@ -18,10 +20,10 @@ function Home() {
             <BrowserRouter>
             {/* Navigation */}
             <nav className="nav_links">
-            <Link className="link" to="/historia">Historia</Link>{" "}
-            <Link className="link" to="/praias">Praias</Link> {" "}
-            <Link className="link" to="/zoologico">Zoologico</Link> {" "}
-          </nav>
+              <Link className="link" to="/historia">História</Link>{" "}
+              <Link className="link" to="/praias">Praias</Link> {" "}
+              <Link className="link" to="/zoologico">Zoológico</Link> {" "}
+            </nav>
     
           {/* Rotas */}
           <Routes>
@@ -30,6 +32,7 @@ function Home() {
             <Route path="/zoologico" element={<Zoologico />} />
           </Routes>
             </BrowserRouter>
+        
         </div>
     </>
   )
